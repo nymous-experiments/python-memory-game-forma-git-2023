@@ -135,8 +135,8 @@ def is_over(buttons):
                 counter += 1
     # TODO: Corriger ce bug
     # Remplacer le return False par return counter == 0
-    return False
-    # return counter == 0
+    # return False
+    return counter == 0
 
 
 if __name__ == "__main__":

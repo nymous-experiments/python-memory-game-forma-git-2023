@@ -21,8 +21,7 @@ def choose_mode():
 3. Sinon elles seront masquées.
 4. Le jeu se termine lorsque toutes les cartes sont visibles.
 5. Une nouvelle partie se lance automatiquement.
-6. Appuyer sur ENTRÉE pour changer de mode.
-7. Appuyer sur ÉSCHAP pour quitter.
+6. Appuyer sur ÉCHAP pour quitter.
         """,
         width="60",
         bg="misty rose",

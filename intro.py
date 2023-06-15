@@ -90,13 +90,13 @@ def choose_level():
     )
     lvl2.pack(side=LEFT)
     # TODO: Ajouter un mode très difficile
-    # lvl3 = Button(
-    #     text="DIFFICILE",
-    #     width="15",
-    #     height="5",
-    #     bg="lavender",
-    #     command=lambda rows=5, cols=8: clicked(rows, cols, level_root, chosen_level),
-    # )
-    # lvl3.pack(side=LEFT)
+    lvl3 = Button(
+        text="DIFFICILE",
+        width="15",
+        height="5",
+        bg="lavender",
+        command=lambda rows=5, cols=8: clicked(rows, cols, level_root, chosen_level),
+    )
+    lvl3.pack(side=LEFT)
     level_root.mainloop()
     return chosen_level

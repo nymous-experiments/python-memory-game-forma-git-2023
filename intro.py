@@ -21,8 +21,7 @@ def choose_mode():
 3. Sinon elles seront masquées.
 4. Le jeu se termine lorsque toutes les cartes sont visibles.
 5. A new game starts automatically.
-6. Press ENTER to change mode.
-7. Press ESCAPE to exit.
+6. Press ESCAPE to exit.
         """,
         width="60",
         bg="misty rose",
